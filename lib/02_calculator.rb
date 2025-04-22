@@ -1,11 +1,14 @@
+# Addition
 def add(n1, n2)
     return n1 + n2
 end
 
+# Soustraction
 def subtract(n1, n2)
     return n1 - n2
 end
 
+# Somme des éléments d'un tableau pris en paramètre
 def sum(array)
     somme = 0
     if array.empty?
@@ -20,14 +23,17 @@ def sum(array)
     end
 end
 
+# Multiplication
 def multiply(n1, n2)
     return n1*n2
 end
 
+# Exponentiation ou puissance
 def power(n, p)
     return n.pow(p)
 end
 
+# Factorielle
 def factorial(n)
     if n < 0
 	return Nil
